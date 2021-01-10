@@ -99,3 +99,9 @@ nav a img {
   background-color: #e35c2d !important;
   color: black !important;
 }
+
+.section-2 .container-fluid {
+  background-image: url('./images/showcase2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
