@@ -101,7 +101,101 @@ nav a img {
 }
 
 .section-2 .container-fluid {
-  background-image: url('./images/showcase2.jpg');
+  background-image: url('./images/showcase1.jpg');
   background-size: cover;
   background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+  margin-top: 20%;
+  margin-bottom: 5%;
+  font-family: 'Righteous', cursive;
+  width: 95%;
+  color: #ffffff;
+}
+.section-2 .paragraph {
+  width: 95%;
+  font-family: 'Sofia', cursive;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 8%;
+}
+
+.section-2 .btn {
+  font-family: 'Righteous', cursive;
+
+  margin-bottom: 15%;
+  width: 30%;
+  padding: 2% 5%;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #e35c2d !important;
+  border: #e35c2d solid 1px !important ;
+}
+
+.section-2 .btn:hover {
+  background-color: #e35c2d !important;
+  color: white !important;
+}
+
+.section-3 {
+  margin-top: 6%;
+}
+.section-3 i {
+  color: rgba(227, 92, 45, 0.6);
+}
+.section-3 p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.section-4 {
+  margin-top: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.section-4 .row .col-md-7,
+.col-md-5 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.section-4 a {
+  color: rgba(227, 92, 45, 0.7);
+  font-size: 40px;
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+}
+.section-4 h1 {
+  text-transform: uppercase;
+}
+
+.section-4 p {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 7%;
+  font-size: 24px;
+}
+footer .section-5 h4 {
+  margin-top: 5%;
+}
+
+footer .section-5 .btn {
+  font-family: 'Righteous', cursive;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #e35c2d !important;
+  border: #e35c2d solid 1px !important;
+}
+input[type='email'] {
+  margin-right: 10px;
+}
+input[type='email']:focus {
+  border-color: rgba(227, 92, 45, 0.7);
+  box-shadow: 0 1px 1px rgba(227, 92, 45, 0.7) inset,
+    0 0 8px rgba(227, 92, 45, 0.7);
+  outline: 0 none;
+}
+footer .section-5 .btn:hover {
+  background-color: #e35c2d !important;
+  color: white !important;
+}
+.social {
+  margin: 5%;
 }
