@@ -158,9 +158,9 @@ nav a img {
 }
 
 .section-4 a {
-  color: rgba(227, 92, 45, 0.7);
+  color: rgba(227, 92, 45, 0.7) !important;
   font-size: 40px;
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: 'Righteous', cursive;
 }
 .section-4 h1 {
@@ -173,6 +173,7 @@ nav a img {
   margin-top: 7%;
   font-size: 24px;
 }
+
 footer .section-5 h4 {
   margin-top: 5%;
 }
@@ -198,4 +199,15 @@ footer .section-5 .btn:hover {
 }
 .social {
   margin: 5%;
+}
+footer i {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+}
+footer i:hover {
+  color: rgba(227, 92, 45, 0.9);
+}
+footer .section-5 h5 {
+  color: rgba(227, 92, 45, 0.5);
+  font-family: 'Sofia', cursive;
 }
