@@ -23,7 +23,7 @@ body {
 }
 .btn-scroll-top i {
   color: rgba(227, 92, 45, 0.6);
-  font-size: 40px;
+  font-size: 35px;
   position: fixed;
   z-index: 99;
   bottom: 10px;
