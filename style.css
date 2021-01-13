@@ -76,6 +76,9 @@ nav a img {
 .section-1 {
   margin-bottom: 8%;
 }
+/* .section-1 .card {
+  width: 14rem;
+} */
 .section-1 .heading-1 {
   margin-top: 8%;
   text-transform: uppercase;
@@ -151,10 +154,13 @@ nav a img {
   padding-top: 4%;
   padding-bottom: 4%;
 }
-.section-4 .row .col-md-7,
-.col-md-5 {
+.section-4 .row .col-xl-7,
+.section-4 .row .col-xl-5 {
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
+}
+.section-4 .col-xl-7 img {
+  width: 590px;
 }
 
 .section-4 a {
@@ -210,4 +216,52 @@ footer i:hover {
 footer .section-5 h5 {
   color: rgba(227, 92, 45, 0.5);
   font-family: 'Sofia', cursive;
+}
+
+@media screen and (max-width: 768px) {
+  .section-4 .col-xl-7 img {
+    width: 350px;
+  }
+  .section-4 .col-xl-7 {
+    margin-bottom: 0;
+  }
+  input[type='email'] {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .site-content .site-title {
+    font-size: 30px;
+  }
+  .site-content .site-btn1 {
+    margin-left: 15%;
+  }
+  .site-content .site-btn2 {
+    display: none;
+  }
+  .section-1 .heading-1 {
+    font-size: 25px;
+  }
+  .section-1 .col-md-3 {
+    padding: 5%;
+    margin-left: 8%;
+  }
+  .section-4 .col-xl-7 img {
+    width: 250px;
+  }
+
+  .section-4 .col-xl-5 {
+    padding: 0 10%;
+  }
+  input[type='email'] {
+    width: 200px;
+  }
+  input[type='button'] {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .social {
+    margin-bottom: 20%;
+  }
 }
