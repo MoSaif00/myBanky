@@ -2,7 +2,7 @@
 
 > I created a responsive landing page that show case a service called myBanky .
 
-### ✨ [Demo](https://mosaif00.github.io/Qussasa-Website/)
+### ✨ [Demo](https://mosaif00.github.io/myBanky/)
 
 ![alt text](screen01.gif)
 
@@ -29,7 +29,7 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MoSaif00/Qussasa-Website/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MoSaif00/myBanky/issues).
 
 ## Show your support
 
