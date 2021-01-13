@@ -6,10 +6,37 @@ font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Sofia', cursive;
 font-family: 'Ubuntu', sans-serif; */
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
+}
+/* .home-page a {
+  text-decoration: none !important;
+} */
+
+.btn-scroll-top a {
+  text-decoration: none;
+}
+.btn-scroll-top i {
+  color: rgba(227, 92, 45, 0.6);
+  font-size: 40px;
+  position: fixed;
+  z-index: 99;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.9s ease-in;
+  border-radius: 35%;
+}
+.btn-scroll-top i:hover {
+  border: #e35c2d solid 1px;
+  border-radius: 50%;
+  color: black;
 }
 nav a img {
   width: 135px;

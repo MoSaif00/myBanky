@@ -13,10 +13,13 @@
     />
   </head>
   <body>
-    <header>
+    <div class="btn-scroll-top">
+      <a href="#home"> <i class="fas fa-arrow-circle-up"></i></a>
+    </div>
+    <header id="home">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <a href="#" class="navbar-brand ms-3"
+          <a href="#home" class="navbar-brand ms-3"
             ><img src="./images/Bankylogo.png" alt=""
           /></a>
           <button
@@ -34,19 +37,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Account</a>
+                <a class="nav-link" href="#home">Account</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Plans</a>
+                <a class="nav-link" href="#plans">Plans</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact-us">Contact Us</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -84,7 +87,7 @@
         </div>
       </div>
 
-      <div class="section-1">
+      <div id="plans" class="section-1">
         <div class="container text-center">
           <h1 class="heading-1">Different Banking Plans</h1>
           <p class="paragraph-1">
@@ -187,7 +190,7 @@
         </div>
       </div>
 
-      <div class="section-3">
+      <div id="features" class="section-3">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -288,7 +291,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer id="contact-us">
       <div class="section-5 text-center">
         <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
         <h4 class="my-4">Lorem ipsum consectetur adipisicing.</h4>
@@ -351,6 +354,11 @@
       sr.reveal('.section-2 .d-flex');
       sr.reveal('.section-3 .col-md-4');
       sr.reveal('.section-4 .col-xl-7,col-xl-5');
+
+      const btnScrollToTop = document.querySelector('.btn-scroll-top');
+      btnScrollToTop.addEventListener('click', function () {
+        $('html,body').animate({scrollTop: 0}, 800);
+      });
     </script>
   </body>
 </html>
