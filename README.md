@@ -12,7 +12,7 @@
 - CSS
 - BOOTSTRAP 4.1
 
-## Usage
+## Features
 
 ```sh
 - Show case of Your services and their features
